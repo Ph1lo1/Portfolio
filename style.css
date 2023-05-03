@@ -169,11 +169,19 @@ svg{
     margin: 0.1%;
 }
 
-@media screen and (min-width: 1440px)
+@media screen and (min-width: 1024px)
 {
     #aCerca p
     {
         font-size: 150%;
+    }
+    #proyectos img{
+        width: 30%;
+        height: auto;
+    }
+    #si a
+    {
+        width: 10%;
     }
 }
 
@@ -184,11 +192,12 @@ svg{
         align-items: baseline;
     }
     #proyectos img{
-        width: 35%;
+        width: 30%;
+        height: auto;
     }
     #si a
     {
-        width: 15%;
+        width: 10%;
     }
 }
 
