@@ -107,15 +107,9 @@ body{
     font-weight: lighter;
 }
 
-#proyectos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 #proyectos img{
     width: 30%;
-    height: auto;
+    height: fit-content;
     margin: 1%;
     background-color: white;
     border: solid 3px #293241;
@@ -142,8 +136,8 @@ body{
 
 #si a{
     display: block;
-    height: 7%;
-    width: 7%;
+    height: fit-content;
+    width: 10%;
     margin: 0 5% 0 5%;
     color: #3d5a80  ;
 }
@@ -169,15 +163,15 @@ svg{
     margin: 0.1%;
 }
 
+#Port2{
+    display:none;
+}
+
 @media screen and (min-width: 1024px)
 {
     #aCerca p
     {
         font-size: 150%;
-    }
-    #si a
-    {
-        width: 10%;
     }
 }
 
@@ -196,26 +190,40 @@ svg{
 @media screen and (max-width: 762px)
 {
     #proyectos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
     #proyectos img{
-        width: 50%;
-        height: auto;
+        width: fit-content;
+        height: 10%;
     }
     #aCerca p
     {
         font-size: 80%;
     }
-    #si a
-    {
-        width: 120%;
+    #Port2{
+        display:block;
+    }
+    #Port1{
+        display: none;
     }
 }
 
-@media screen and (max-width: 425px)
+@media screen and (max-width: 660px)
 {
+    #proyectos img{
+        width: fit-content;
+        height: 10%;
+    }
     #aCerca p
     {
         width: 90%;
     } 
+}
+
+@media screen and (max-width: 450px)
+{
+
 }
