@@ -60,19 +60,19 @@ body{
     color: #293241;
     padding: 10px;  
     background-color: rgb(235, 235, 235);
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .nav-link{
     color: white;
     background-color: rgba(0, 0, 0, 0.25);
     border: solid 2px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 3px;
     margin: 10px;
 }
 
 .sec{
-    border-radius: 10px;
+    border-radius: 5px;
     color: #293241;
     font-weight: lighter;
 }
