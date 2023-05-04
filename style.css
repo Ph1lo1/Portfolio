@@ -97,6 +97,17 @@ body{
     border: solid 7px#293241;
 }
 
+#perfil:hover{
+    animation: rotar 2s ease-in 1s;
+}
+
+@keyframes rotar {
+    15% { rotate: -7deg; }
+    30% { rotate: 14deg; }
+    60% { rotate: -7deg; }
+    100% { rotate: 360deg;}
+}
+
 #nom{
     font-size: 200%;
     font-weight: bold;
@@ -115,6 +126,12 @@ body{
     border: solid 3px #293241;
     border-radius: 5%;
     padding: 1%;
+}
+
+#proyectos img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0);
 }
 
 #aCerca p{
