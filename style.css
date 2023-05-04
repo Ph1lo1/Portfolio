@@ -181,10 +181,6 @@ svg{
         display: block;
         align-items: baseline;
     }
-    #si a
-    {
-        width: 10%;
-    }
 }
 
 @media screen and (max-width: 762px)
@@ -220,10 +216,9 @@ svg{
     #aCerca p
     {
         width: 90%;
-    } 
-}
-
-@media screen and (max-width: 450px)
-{
-
+    }
+    #si a
+    {
+        width: 30%;
+    }
 }
