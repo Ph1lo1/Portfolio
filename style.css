@@ -160,7 +160,7 @@ body{
 }
 
 #si a:hover{
-    color: #98c1d9;
+    
     transition: 1s;
     transform: scale(1.1);
 }
